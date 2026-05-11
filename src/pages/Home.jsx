@@ -41,7 +41,7 @@ const Home = () => {
                 value={busqueda}
                 onChange={(e) => setBusqueda(e.target.value)}
               />
-              <span className="btn btn-dark">
+              <span className="btn btn-dark border-cyan">
                 <i className="fa-solid fa-magnifying-glass text-cyan-icon"></i>
               </span>
             </div>
